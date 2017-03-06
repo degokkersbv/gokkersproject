@@ -55,3 +55,9 @@ C:\Users\noelv\Dropbox\De Gokkers\WindowsFormsApplication1 - Orginal\WindowsForm
 C:\Users\marxi\Desktop\Project\gokkersproject\WindowsFormsApplication1 - Orginal\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
 C:\Users\marxi\Desktop\Project\gokkersproject\WindowsFormsApplication1 - Orginal\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 C:\Users\marxi\Desktop\Project\gokkersproject\WindowsFormsApplication1 - Orginal\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\marxi\Desktop\Project\gokkersproject\WindowsFormsApplication1 - Orginal\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\marxi\Desktop\Project\gokkersproject\WindowsFormsApplication1 - Orginal\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\marxi\Desktop\Project\gokkersproject\WindowsFormsApplication1 - Orginal\WindowsFormsApplication1\obj\Debug\DeGokkers.csprojResolveAssemblyReference.cache
+C:\Users\marxi\Desktop\Project\gokkersproject\WindowsFormsApplication1 - Orginal\WindowsFormsApplication1\obj\Debug\DeGokkers.Form1.resources
+C:\Users\marxi\Desktop\Project\gokkersproject\WindowsFormsApplication1 - Orginal\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\marxi\Desktop\Project\gokkersproject\WindowsFormsApplication1 - Orginal\WindowsFormsApplication1\obj\Debug\DeGokkers.csproj.GenerateResource.Cache

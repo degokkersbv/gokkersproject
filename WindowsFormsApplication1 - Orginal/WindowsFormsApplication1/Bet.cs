@@ -34,9 +34,9 @@ namespace DeGokkers
 
         public string GetDescription()
         {
-            if (this._amount == 0) // mean initially user doesnot have any bucks or bet placed
+            if (this._amount == 0) 
                 return this._bettor.Name + " hasn't placed any bet";
-            else // else return what he placed and on what dog
+            else 
                 return this._bettor.Name + " placed " + this._bettor.MyBet._amount.ToString() + "$ on Stork # " + this._bettor.MyBet.storkNumber.ToString();
         }
 
