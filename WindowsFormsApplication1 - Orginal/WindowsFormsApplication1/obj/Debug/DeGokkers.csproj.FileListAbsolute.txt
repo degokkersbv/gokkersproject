@@ -52,3 +52,6 @@ C:\Users\noelv\Dropbox\De Gokkers\WindowsFormsApplication1 - Orginal\WindowsForm
 C:\Users\noelv\Dropbox\De Gokkers\WindowsFormsApplication1 - Orginal\WindowsFormsApplication1\obj\Debug\DeGokkers.Form1.resources
 C:\Users\noelv\Dropbox\De Gokkers\WindowsFormsApplication1 - Orginal\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\noelv\Dropbox\De Gokkers\WindowsFormsApplication1 - Orginal\WindowsFormsApplication1\obj\Debug\DeGokkers.csproj.GenerateResource.Cache
+C:\school\Project\Project Pe3\Gokkers\gokkersproject\WindowsFormsApplication1 - Orginal\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\school\Project\Project Pe3\Gokkers\gokkersproject\WindowsFormsApplication1 - Orginal\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\school\Project\Project Pe3\Gokkers\gokkersproject\WindowsFormsApplication1 - Orginal\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
