@@ -94,19 +94,69 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+html {
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 1900px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1400px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 
+header {
+    background-color: red;
+    justify-content: space-around;
+}
 
+.hero {
+background-color: blue;
+height: 200px;
+}
 
+.slide {
+background-color: red;
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+justify-content: space-around;
+}
+.picture img {
+max-width: 400px;
+}
 
+.about {
+background-color: blue;
+height: 200px;
+}
 
+.team {
+background-color: red;
+height: 200px;
+}
 
-
-
-
-
-
-
+footer {
+background-color: blue;
+height: 200px;
+}
 
 
 

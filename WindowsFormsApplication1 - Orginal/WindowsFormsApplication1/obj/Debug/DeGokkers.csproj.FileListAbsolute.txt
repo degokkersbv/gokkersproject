@@ -67,3 +67,12 @@ C:\Users\marxi\Desktop\Project\gokkersproject\WindowsFormsApplication1 - Orginal
 C:\Users\marxi\Desktop\Project\gokkersproject\WindowsFormsApplication1 - Orginal\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\marxi\Desktop\Project\gokkersproject\WindowsFormsApplication1 - Orginal\WindowsFormsApplication1\obj\Debug\DeGokkers.csproj.GenerateResource.Cache
 >>>>>>> origin/master
+C:\school\Project\Project Pe3\gitkraken\gokkersproject\WindowsFormsApplication1 - Orginal\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\school\Project\Project Pe3\gitkraken\gokkersproject\WindowsFormsApplication1 - Orginal\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\school\Project\Project Pe3\gitkraken\gokkersproject\WindowsFormsApplication1 - Orginal\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\school\Project\Project Pe3\gitkraken\gokkersproject\WindowsFormsApplication1 - Orginal\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\school\Project\Project Pe3\gitkraken\gokkersproject\WindowsFormsApplication1 - Orginal\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\school\Project\Project Pe3\gitkraken\gokkersproject\WindowsFormsApplication1 - Orginal\WindowsFormsApplication1\obj\Debug\DeGokkers.csprojResolveAssemblyReference.cache
+C:\school\Project\Project Pe3\gitkraken\gokkersproject\WindowsFormsApplication1 - Orginal\WindowsFormsApplication1\obj\Debug\DeGokkers.Form1.resources
+C:\school\Project\Project Pe3\gitkraken\gokkersproject\WindowsFormsApplication1 - Orginal\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\school\Project\Project Pe3\gitkraken\gokkersproject\WindowsFormsApplication1 - Orginal\WindowsFormsApplication1\obj\Debug\DeGokkers.csproj.GenerateResource.Cache
