@@ -103,29 +103,39 @@ body {
     background-size: cover;
 
 }
+
+}
+
 .maincontainer {
-    width: 1900px;
+  
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
     display: -o-flex;
     display: flex;
     flex-direction: column;}
+
 .container {
     width: 1400px;
 }
 
 
 header {
-    background-color: red;
+    background-color: #551A8B;
 }
+header img{
+    max-width: 500px;
+}
+
+
 .opacity {
     opacity: 0.85;
 }
 .hero {
-    background-color: blue;
+    background-color: #551A8B;
     height: 800px;
     background-image: url(../img/baner.jpg);
+    background-position: 50% 50%;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -134,8 +144,12 @@ header {
     flex-direction: column;
 }
 .hero h1{
+    display: flex;
     font-size:75px;
     color: #696969;
+    justify-content: center;
+}
+
 }
 .texttop {
     display: -webkit-flex;
@@ -161,7 +175,7 @@ header {
 }
 .slide {
     padding: 20px 0 20px 0;
-    background-color: red;
+    background-color: #000080;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -179,10 +193,11 @@ header {
 .picture img {
     max-width: 400px;
     padding: 0 5px 20px 5px;
+    justify-content: center;
 }
 
 .about {
-    background-color: blue;
+    background-color: #551A8B;
     height:;
     margin: 0 auto;
 }
@@ -196,21 +211,43 @@ header {
     background-color: rgba(255,255,255,0.5);
     margin: 20px 20px 20px 20px;
 }
+.textabout h3, h4, p{
+    padding: 0 10px 0 10px;
+}
 .downloadregister {
-    background-color: #696969;
+    background-color: #000080;
     height: 200px;
     margin: 0 auto;
 }
 .team {
-    background-color: red;
-    height: 200px;
+    background-color: #000080;
     margin: 0 auto;
+    display: flex;
+}
+.teamlisting{
+    flex-grow: 1;
 }
 
+.teammembers {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-around;
+
+}
+.teammember{
+    text-align: center;
+    padding : 10px;
+}
+.teammember img{
+    max-height: 200px;
+    max-width: 200px;
+}
 footer {
-    background-color: blue;
-    height: 200px;
+    background-color: #551A8B;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 
