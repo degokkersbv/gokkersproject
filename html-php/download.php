@@ -1,12 +1,14 @@
 
 <?php
-/*Actual filename = 'attachment.zip' (Unknown to the viewers).
-When downloaded to be saved as 'mydownload.zip'.
-*/
-$filename='Degokkers.zip';
-header("Content-type: application/zip");
-header("Content-Disposition: attachment; filename=$filename");
-echo file_get_contents('attachment.zip');
+
+
+$file_name = 'Degokkers.zip';
+header('Content-Type: application/zip');
+header("Content-Transfer-Encoding: Binary"); 
+header("Content-disposition: attachment; filename=\"" . basename($file_name) . "\""); 
+readfile($file_name); // do the double-download-dance (dirty but worky)
+
+
 ?>
 
 
