@@ -5,9 +5,6 @@
  * Date: 13-3-2017
  * Time: 15:51
  */
-
-
-<?php
 $servername = "localhost";
 $username = "root";
 $password = "";
