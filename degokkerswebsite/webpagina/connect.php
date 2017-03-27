@@ -5,17 +5,22 @@
  * Date: 13-3-2017
  * Time: 15:51
  */
-$user = "root";
-$dbpass = "";
-$host = "localhost:";
-$dbdb = "degokker";
-$table="users";
 
-if (!mysqli_select_db($dbdb, mysqli_connect($host, $user, $dbpass)))
-{
-    echo "Connectie met de database mislukt.";
-    exit();
+
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "degokker";
+try {
+//Creating connection for mysql
+    $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+// set the PDO error mode to exception
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    echo "Connected successfully";
 }
-else {$con = mysqli_select_db($dbdb, mysqli_connect($host, $user, $dbpass));}
-?>
+catch(PDOException $e)
+{
+    echo "Connection failed: " . $e->getMessage();
+}
 ?>
