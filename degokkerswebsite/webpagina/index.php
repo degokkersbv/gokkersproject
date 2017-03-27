@@ -43,7 +43,7 @@ $goback = 'echo <pre><a href="index.php">Ga terug naar de hoofdpage</a>';
      $email  = $_POST['email'];
 
      $qry="SELECT `email` FROM `users` ORDER BY `email`";
-     $result = mysqli_query($qry) or die(mysqli_error());
+     $result = mysqli_query($db, $qry) or die(mysqli_error($db));
      while ($row = mysqli_fetch_array($result))
      {
          if ($email === $row['email']) {
