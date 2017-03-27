@@ -200,9 +200,11 @@ header img{
     background-color: #551A8B;
     height:;
     margin: 0 auto;
+    padding: 5px 0 5px 0;
 }
 .about h3 {
     font-size: 35px;
+    margin: 0 0 25px 0;
 }
 .about h3 , p{
 }
@@ -218,6 +220,10 @@ header img{
     background-color: #000080;
     height: 200px;
     margin: 0 auto;
+    padding: 5px 0 0 0;
+}
+.downloadregister h3 {
+    margin : 0 0 0 0;
 }
 .team {
     background-color: #000080;
