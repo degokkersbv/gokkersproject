@@ -24,32 +24,32 @@ $goback = 'echo <pre><a href="index.php">Ga terug naar de hoofdpage</a>';
 
  ///////// Registeren
    // Sign up functie
-    if(isset($_POST['signup'])){
+ if(isset($_POST['signup'])){
 
 
-       if (empty($_POST['name'])){die("U moet uw naam invullen");}
-       if ($_POST['date']=="DATE"){die("U moet uw geboorte datum invullen");}
-       if ($_POST['month']=="MONTH"){die("U moet uw geboorte datum invullen");}
-       if ($_POST['year']=="YEAR"){die("U moet uw geboorte datum invullen");}
-       if (empty($_POST['passregister'])){die("U moet uw passwoord invullen");}
-       if (empty($_POST['passcheck'])){die("U moet uw passwoord twee keer invullen");}
-       if ($_POST['passcheck']!= $_POST['passregister']){die("U passwoord komt niet overeen");}
-       if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-          die("U moet uw email invullen");}
+     if (empty($_POST['name'])){die("U moet uw naam invullen".$goback);}
+     if ($_POST['date']=="DATE"){die("U moet uw geboorte datum invullen".$goback);}
+     if ($_POST['month']=="MONTH"){die("U moet uw geboorte datum invullen".$goback);}
+     if ($_POST['year']=="YEAR"){die("U moet uw geboorte datum invullen".$goback);}
+     if (empty($_POST['passregister'])){die("U moet uw passwoord invullen".$goback);}
+     if (empty($_POST['passcheck'])){die("U moet uw passwoord twee keer invullen".$goback);}
+     if ($_POST['passcheck']!= $_POST['passregister']){die("U passwoord komt niet overeen".$goback);}
+     if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+         die("U moet uw email invullen");}
 
 
-       if(!isset($_POST['ToS'])){ die("U moet akkoord gaan".$goback);}
+     if(!isset($_POST['ToS'])){ die("U moet akkoord gaan".$goback);}
 
-    	$email  = $_POST['email'];
+     $email  = $_POST['email'];
 
-        $qry="SELECT `email` FROM `users` ORDER BY `email`";
-        $result = mysql_query($qry) or die(mysql_error());
-        while ($row = mysql_fetch_array($result))
-        {
-        if ($email === $row['email']) {
-            die("Deze email bestaat al!");
-        }
-    }
+     $qry="SELECT `email` FROM `users` ORDER BY `email`";
+     $result = mysqli_query($qry) or die(mysqli_error());
+     while ($row = mysqli_fetch_array($result))
+     {
+         if ($email === $row['email']) {
+             die("Deze email bestaat al!");
+         }
+     }
 
         $name   = htmlspecialchars($_POST['name']);
         $date   = $_POST['date'];
